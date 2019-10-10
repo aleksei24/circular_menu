@@ -22,6 +22,9 @@ menus.map((menu) => {
                 const angle = i * arc;//номер элемента * на расстояние между элементами
                 const x = radius * Math.cos(angle);//координата Х
                 const y = radius * Math.sin(angle);//координата У
+
+                items[i].style.left = 50 + x + '%';
+                items[i].style.top = 50 + y + '%';
             }
         }
         else{
