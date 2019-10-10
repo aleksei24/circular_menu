@@ -18,10 +18,16 @@ menus.map((menu) => {
         if(active){
             button.classList.add('circular-menu__button-active');
 
-
+            for(let i = 0; i < length; i++) {
+                const angle = i * arc;//номер элемента * на расстояние между элементами
+                const x = radius * Math.cos(angle);//координата Х
+                const y = radius * Math.sin(angle);//координата У
+            }
         }
         else{
             button.classList.remove('circular-menu__button-active');
+
+
         }
     });
 });
