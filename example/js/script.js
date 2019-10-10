@@ -11,6 +11,8 @@ menus.map((menu) => {
     const radius = 40;
 
     button.addEventListener('click', (e) =>{
+        e.preventDefault();
+
         
     });
 });
