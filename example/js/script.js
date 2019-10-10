@@ -6,5 +6,6 @@ menus.map((menu) => {
 
     let active = false;
 
+    const length = items.length;
     
 });
