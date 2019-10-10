@@ -9,4 +9,8 @@ menus.map((menu) => {
     const length = items.length;
     const arc = 2 * Math.PI * (1 / length);
     const radius = 40;
+
+    button.addEventListener('click', (e) =>{
+        
+    });
 });
