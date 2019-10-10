@@ -30,7 +30,9 @@ menus.map((menu) => {
         else{
             button.classList.remove('circular-menu__button-active');
 
-
+            for(let i = 0; i < length; i++) {
+                items[i].removeAttribute('style');
+            }
         }
     });
 });
