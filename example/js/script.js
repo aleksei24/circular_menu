@@ -18,10 +18,10 @@ menus.map((menu) => {
         if(active){
             button.classList.add('circular-menu__button-active');
 
-            
+
         }
         else{
-
+            button.classList.remove('circular-menu__button-active');
         }
     });
 });
