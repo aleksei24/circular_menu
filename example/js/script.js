@@ -13,6 +13,8 @@ menus.map((menu) => {
     button.addEventListener('click', (e) =>{
         e.preventDefault();
 
+        active = !active;
+
         
     });
 });
