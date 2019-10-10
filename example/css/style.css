@@ -5,3 +5,9 @@ body{
     height: 100vh;
 }
 
+.circular-menu{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
