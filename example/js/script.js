@@ -16,7 +16,9 @@ menus.map((menu) => {
         active = !active;
 
         if(active){
+            button.classList.add('circular-menu__button-active');
 
+            
         }
         else{
 
